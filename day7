@@ -1,0 +1,26 @@
+public class Java_training_day_7 {
+    public boolean containsDuplicate(int[] nums) {
+        int[] nums = {1,2,3,4,1};
+        for(int i=0;i<nums.length;i++){
+            for(j=i+1;j<nums.length;j++){
+                if(nums[i]==nums[j]){
+                    return true;
+                }
+                return false;
+            }
+        }
+    }
+public class Test {
+    public static void main(String[] args) {
+        Student obj1 = new Student();
+        obj1.name = "Gayathri";
+        obj1.id = 25;
+        obj1.branch = "CSE";
+        obj1.age = 19;
+        System.out.println(obj1.name);
+        System.out.println(obj1.branch);
+        System.out.println(obj1.age);
+        System.out.println(obj1.id);
+    }
+    
+}day7
